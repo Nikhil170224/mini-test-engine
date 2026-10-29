@@ -1,0 +1,15 @@
+# Sample question bank for the Mini Test Engine
+# Format: TYPE|id|question|marks|options or answer|correct index (MCQ only)
+# MCQ options are separated by ';', correct index starts at 0.
+# Blank lines and lines starting with # are ignored.
+
+MCQ|1|Which C++ smart pointer owns an object alone and cannot be copied?|1|shared_ptr;unique_ptr;weak_ptr;raw pointer|1
+MCQ|2|What is the average time complexity of unordered_map lookup?|1|O(n);O(log n);O(1);O(n log n)|2
+MCQ|3|Which keyword stops a class from being inherited?|1|virtual;final;static;override|1
+MCQ|4|What does RAII stand for?|2|Resource Allocation Is Instant;Resource Acquisition Is Initialization;Random Access Is Important;Reference And Inheritance Interface|1
+MCQ|5|Which container keeps elements sorted automatically?|1|unordered_map;vector;set;queue|2
+TF|6|In C++, a base class destructor should be virtual if objects are deleted through a base pointer.|1|true
+TF|7|Stack memory is manually freed with delete in C++.|1|false
+TF|8|A vector grows by reallocating and moving its elements when it runs out of space.|1|true
+NUM|9|What is 15 * 4?|1|60
+NUM|10|What is 10 / 4?|1|2.5
